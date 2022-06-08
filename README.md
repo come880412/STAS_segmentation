@@ -78,5 +78,7 @@ bash train.sh
 </p>
 Where the top two figures are the training phase, and the two down figures are the validation phase.
 
+- If you have any questions, please feel free to email me! come880412@gmail.com
+
 # Reference
 [1] https://github.com/jfzhang95/pytorch-deeplab-xception
