@@ -1,6 +1,28 @@
 # STAS_segmentation
 Competition URL: https://tbrain.trendmicro.com.tw/Competitions/Details/22 (public 30th, private 2th)
 
+# Method
+In this competition, we refer to the most popular model "Deeplab-v3-plus" on the segmentation task. The model architecture is shown below:
+<p align="center">
+<img src="https://github.com/come880412/STAS_segmentation/blob/main/images/model/model.jpg" width=70% height=70%>
+</p>
+
+In the inference phase, we use the Test-Time Augmentation(TTA) to make our model more robust. The procedure of TTA is demonstrated below:
+<p align="center">
+<img src="https://github.com/come880412/STAS_segmentation/blob/main/images/model/TTA.jpg" width=70% height=70%>
+</p>
+
+# Predicted results
+Here, we take a few figures from the prediction results as examples.
+ <p align="center">
+<img src="https://github.com/come880412/STAS_segmentation/blob/main/images/predicted_results/result_1.png" width=45% height=45%>
+<img src="https://github.com/come880412/STAS_segmentation/blob/main/images/predicted_results/result_2.png" width=45% height=45%>
+<img src="https://github.com/come880412/STAS_segmentation/blob/main/images/predicted_results/result_3.png" width=45% height=45%>
+<img src="https://github.com/come880412/STAS_segmentation/blob/main/images/predicted_results/result_4.png" width=45% height=45%>
+<img src="https://github.com/come880412/STAS_segmentation/blob/main/images/predicted_results/result_5.png" width=45% height=45%>
+</p>|
+
+
 # Getting started
 - Clone this repo to your local
 ``` bash
@@ -47,6 +69,14 @@ python3 test.py --root path/to/dataset/Public_image --model ./checkpoint/deeplab
 ``` bash
 bash train.sh
 ```
+- Furthermore, the following figures are our model's learning curve:
+ <p align="center">
+<img src="https://github.com/come880412/STAS_segmentation/blob/main/images/learning_curve/Training_loss.png" width=45% height=45%>
+<img src="https://github.com/come880412/STAS_segmentation/blob/main/images/learning_curve/Training_dice_score.png" width=45% height=45%>
+<img src="https://github.com/come880412/STAS_segmentation/blob/main/images/learning_curve/validation_loss.png" width=45% height=45%>
+<img src="https://github.com/come880412/STAS_segmentation/blob/main/images/learning_curve/Validation_dice_score.png" width=45% height=45%>
+</p>
+Where the top two figures are the training phase, and the two down figures are the validation phase.
 
 # Reference
 [1] https://github.com/jfzhang95/pytorch-deeplab-xception
