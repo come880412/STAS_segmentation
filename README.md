@@ -2,7 +2,7 @@
 Competition URL: https://tbrain.trendmicro.com.tw/Competitions/Details/22 (public 30th, private 2th)
 
 # Method
-In this competition, we refer to the most popular model "Deeplab-v3-plus" on the segmentation task. The model architecture is shown below:
+In this competition, we refer to the popular model "Deeplab-v3-plus" on the segmentation task. The model architecture is shown below:
 <p align="center">
 <img src="https://github.com/come880412/STAS_segmentation/blob/main/images/model/model.jpg" width=70% height=70%>
 </p>
