@@ -20,7 +20,7 @@ Here, we take a few figures from the prediction results as examples.
 <img src="https://github.com/come880412/STAS_segmentation/blob/main/images/predicted_results/result_3.png" width=45% height=45%>
 <img src="https://github.com/come880412/STAS_segmentation/blob/main/images/predicted_results/result_4.png" width=45% height=45%>
 <img src="https://github.com/come880412/STAS_segmentation/blob/main/images/predicted_results/result_5.png" width=45% height=45%>
-</p>|
+</p>
 
 
 # Getting started
