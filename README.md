@@ -1,5 +1,5 @@
 # STAS_segmentation
-Competition URL: https://tbrain.trendmicro.com.tw/Competitions/Details/22 
+Competition URL: https://tbrain.trendmicro.com.tw/Competitions/Details/22 \
 Private Leaderboard: 2 / 307 (Top 1%)
 
 # Method
