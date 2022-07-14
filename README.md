@@ -61,7 +61,7 @@ python3 preprocessing.py
 ## Inference
 - After downloading the pretrained models and preparing the datasets, you could use the following command to test the best results on the public/private leaderboard.
 ``` bash
-python3 test.py --root path/to/dataset/Public_image --model ./checkpoint/deeplab_1280_900/model.pth --threshold 0.35
+python3 test.py --root path/to/dataset --load ./checkpoint/deeplab_1280_900/model.pth --threshold 0.35
 ```
 - The result will be saved on the folder `./publicFig_deeplab` automatically.
 
